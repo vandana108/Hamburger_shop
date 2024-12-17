@@ -6,3 +6,26 @@ body{
   background-color: #f6f0eb;
   font-family: 'Poppins',sans-serif;
 }
+
+a{
+  text-decoration-line: none;
+  color: inherit;
+}
+header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 32px;
+
+}
+nav{
+  display: flex;
+  gap: 60px;
+}
+
+nav a{
+  font-weight: 700;
+  font-size: 20px;
+  color: #492118;
+}
