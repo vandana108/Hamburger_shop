@@ -104,3 +104,34 @@ margin: 0 auto;
   font-size: 24px;
   margin-top: 32px;
 }
+
+@media(max-width:960px){
+  nav a{
+    font-size: 12px;
+    
+  }
+
+  nav a+a{
+    margin-left: 32px;
+  }
+
+  header{
+    padding: 16px 24px;
+  }
+}
+
+@media(max-width:768px){
+  header{
+    background-color: transparent;
+  }
+  nav a{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.75);
+    flex-direction: column ;
+    right: 0;
+  }
+
+  nav a{
+    margin: 0;
+  }
+}
